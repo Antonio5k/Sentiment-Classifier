@@ -1,6 +1,6 @@
 ## Introduction
 This application will aid traders and investors that are seeking a competitive edge agaigst financial market. You can use this tool to gauge if a stock's news is positive or negative, and then trade in accordance with the sentiment. 
-## Data
+
 ### Source
 We have intergrated pre-trained models that NLTK uses, and also the TextBlob library. These are widely used in the python community for naturual language proccessing applications. Then I download the 'punkt' corpora.
 
@@ -15,8 +15,6 @@ Using the TextBlob API, we can get an instant classification for the stock.
 ### Approach
 
 Finally we used a Langchain OpenAI and Question and Answer models to analyze the stock sentiment. Provide analysis based on user input. 
-
-Here is the sample output of the app, 
 
 
 ## Conclusion
